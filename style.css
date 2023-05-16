@@ -1,0 +1,115 @@
+body {
+  background-color: #D8B390 !important;
+}
+
+header {
+  margin-bottom: 2%;
+}
+nav {
+  white-space: nowrap;
+}
+.navLink {
+  text-decoration: none;
+  color: #772F1A ;
+  font-size: 23px;
+}
+
+.navLink:hover {
+  color: black;
+}
+
+#navLogo:hover {
+  opacity: 75%;
+}
+
+
+footer{
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  
+}
+
+footer::before {
+  content: "Lucas Castillo • Chace Moniz • Thomas Graber • Thomas Manning • Trevor St. Amand • Owen Quin • Ben Ponte | OCRVTHS Fall Festival ";
+  color: black;
+  font-size: 1em;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-around;
+  background-color: #D8B390;
+  flex-wrap: wrap;
+  margin: 2% auto;
+  width: 100%;
+}
+
+.mainContent > div {
+  width: 600px;
+  height: 400px;
+  margin: 3% 4% 3% 4%;
+  background-color: #EEC170;
+  --box-shadow: 0 4px 8px 0 #D6AE65, 0 6px 20px 0 #D6AE65;
+  box-shadow: 0px 4px 12px 12px rgba(195, 133, 35, 0.7);
+}
+
+.info {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.ft-title {
+  color: #772F1A;
+}
+
+.timerBox {
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #EEC170;
+  padding: 1%;
+  justify-content: space-around;
+  box-shadow: 0px 4px 6px 6px rgba(195, 133, 35, 0.7);
+}
+
+
+.ft-box-color {
+  width: 533px;
+  height: 453px;
+
+  background: #EEC170;
+  box-shadow: 0px 4px 12px 12px rgba(195, 133, 35, 0.7);
+}
+
+.ft-box-temp {
+  width: 665px;
+  height: 453px;
+
+  background: #EEC170;
+  box-shadow: 0px 4px 12px 12px rgba(195, 133, 35, 0.7);
+}
+
+.sectionContent > h2,
+.sectionContent > p {
+  margin: 5px 5px 5px 10px;
+  margin-top: 5px;
+  
+}
+.sectionContent > h2{
+  text-align: center;
+}
+
+.sectionContent{
+  height: 70%;
+  width: 50%;
+  margin: 3% 4% 3% 4%;
+  background-color: #EEC170;
+  box-shadow: 0 4px 8px 0 #D6AE65, 0 6px 20px 0 #D6AE65;
+}
+
+#carouselExampleSlidesOnly{
+  width: 25%;
+  display: block;
+  margin:  0 auto;
+}
